@@ -5,97 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professionelle Drohnenflüge in Graz & Umgebung</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        function scrollToSection(id) {
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
 </head>
-<body class="bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?mountains,landscape');">
-    <header class="bg-black bg-opacity-60 text-white p-4 flex flex-col items-center">
-        <h1 class="text-3xl font-bold mb-4">Drohnenflüge Graz</h1>
+<body class="bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?drone,landscape');">
+    <header class="bg-black bg-opacity-60 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold"><a href="#startseite">Drohnenflüge Graz</a></h1>
         <nav>
             <ul class="flex space-x-4">
-                <li><button onclick="scrollToSection('startseite')" class="hover:text-gray-300">Startseite</button></li>
-                <li><button onclick="scrollToSection('ueber-mich')" class="hover:text-gray-300">Über mich</button></li>
-                <li><button onclick="scrollToSection('leistungen')" class="hover:text-gray-300">Leistungen</button></li>
-                <li><button onclick="scrollToSection('preise')" class="hover:text-gray-300">Preise</button></li>
-                <li><button onclick="scrollToSection('projekte')" class="hover:text-gray-300">Projekte</button></li>
-                <li><button onclick="scrollToSection('kundenmeinungen')" class="hover:text-gray-300">Kundenmeinungen</button></li>
-                <li><button onclick="scrollToSection('video')" class="hover:text-gray-300">Video</button></li>
-                <li><button onclick="scrollToSection('kontakt')" class="hover:text-gray-300">Kontakt</button></li>
+                <li><a href="#startseite" class="hover:text-gray-300">Startseite</a></li>
+                <li><a href="#ueber-mich" class="hover:text-gray-300">Über mich</a></li>
+                <li><a href="#leistungen" class="hover:text-gray-300">Leistungen</a></li>
+                <li><a href="#preise" class="hover:text-gray-300">Preise</a></li>
+                <li><a href="#projekte" class="hover:text-gray-300">Projekte</a></li>
+                <li><a href="#kundenmeinungen" class="hover:text-gray-300">Kundenmeinungen</a></li>
+                <li><a href="#video" class="hover:text-gray-300">Video</a></li>
+                <li><a href="#kontakt" class="hover:text-gray-300">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="startseite" class="h-screen flex flex-col justify-center items-center text-white bg-black bg-opacity-40">
-        <h2 class="text-4xl font-bold mb-4">Spektakuläre Landschaftsaufnahmen</h2>
-        <p class="mb-4">Faszinierende Perspektiven aus der Luft für Graz & Umgebung</p>
-        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Mehr erfahren</button>
+        <h2 class="text-4xl font-bold text-center">Einzigartige Perspektiven aus der Luft</h2>
+        <video autoplay muted loop class="w-3/4 mt-4 rounded shadow">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Ihr Browser unterstützt kein Video-Tag.
+        </video>
     </section>
 
-    <section id="ueber-mich" class="p-8 bg-white">
-        <h2 class="text-3xl font-bold mb-4">Über mich</h2>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="bg-gray-100 p-4 rounded shadow">
-                <h3 class="font-bold">Meine Erfahrung</h3>
-                <p>Schon in jungen Jahren begann ich mit Drohnenaufnahmen und entwickelte eine Leidenschaft für atemberaubende Luftbilder. Mit der Zeit habe ich mein Können perfektioniert und zahlreiche Projekte erfolgreich umgesetzt.</p>
-            </div>
-            <div class="bg-gray-100 p-4 rounded shadow">
-                <h3 class="font-bold">Meine Motivation</h3>
-                <p>Drohnenfliegen ist für mich mehr als nur ein Hobby – es ist eine Möglichkeit, die Welt aus einer völlig neuen Perspektive zu entdecken. Jede Aufnahme bringt neue Herausforderungen und einzigartige Perspektiven, die mich immer wieder begeistern. Es gibt unzählige Orte zu erkunden, beeindruckende Landschaften zu filmen und kreative Ideen umzusetzen. Die Mischung aus Technik, Natur und Kreativität macht Drohnenaufnahmen für mich zu einem unvergleichlichen Erlebnis.</p>
-            </div>
-            <div class="bg-gray-100 p-4 rounded shadow">
-                <h3 class="font-bold">Mein Equipment</h3>
-                <p>Ich verwende modernstes Equipment, um die besten Aufnahmen zu erzielen: die DJI Mini 4 Pro für gestochen scharfe Luftbilder, die GoPro Hero 8 für actionreiche Perspektiven und die Insta 360 X3 für beeindruckende 360°-Aufnahmen. Diese Kombination ermöglicht mir eine maximale Flexibilität und höchste Bildqualität für jede Art von Projekt.</p>
-            </div>
-        </div>
+    <section id="projekte" class="p-8 bg-gray-50 text-center">
+        <h2 class="text-3xl font-bold">Projekte</h2>
+        <p>Ich durfte ein spannendes Projekt für Pölzl Feuerlöschtechnik umsetzen, bei dem ich hochauflösende Luftaufnahmen für Werbezwecke erstellt habe.</p>
     </section>
 
-    <section id="leistungen" class="p-8 bg-gray-50">
-        <h2 class="text-3xl font-bold mb-4">Leistungen</h2>
-        <ul class="list-disc ml-6">
-            <li>📷 Hochauflösende Luftbilder & Videos (4K)</li>
-            <li>🏡 Immobilien- und Grundstücksaufnahmen</li>
-            <li>🌳 Landwirtschaftliche Flächenüberwachung</li>
-            <li>🏗️ Baustellendokumentation</li>
-            <li>🛠️ Inspektionen (Dächer, Solaranlagen etc.)</li>
+    <section id="kundenmeinungen" class="p-8 bg-white text-center">
+        <h2 class="text-3xl font-bold">Kundenmeinungen</h2>
+        <ul class="space-y-2">
+            <li>🌟🌟🌟🌟🌟 "Atemberaubende Aufnahmen, absolut empfehlenswert!"</li>
+            <li>🌟🌟🌟🌟🌟 "Sehr professionell, tolle Qualität und schnelle Bearbeitung."</li>
+            <li>🌟🌟🌟🌟 "Super Service und sehr flexibel, gerne wieder!"</li>
+            <li>🌟🌟🌟🌟🌟 "Die Bilder haben unser Projekt perfekt ergänzt, einfach top!"</li>
+            <li>🌟🌟🌟🌟 "Freundlich, zuverlässig und ein echter Experte für Drohnenaufnahmen."</li>
         </ul>
     </section>
 
-    <section id="preise" class="p-8 bg-white">
-        <h2 class="text-3xl font-bold mb-4">Preise</h2>
-        <ul class="list-disc ml-6">
-            <li>Grundpaket: 60 € (20 Min. Flugzeit, 10 bearbeitete Bilder)</li>
-            <li>Erweitertes Paket: 150 € (40 Min. Flugzeit, 30 Bilder + 1,5 Min. Video)</li>
-            <li>Premium-Paket: 250 € (60 Min. Flugzeit, 50 Bilder + 3 Min. Video)</li>
-        </ul>
-    </section>
-
-    <section id="projekte" class="p-8 bg-gray-50">
-        <h2 class="text-3xl font-bold mb-4">Projekte</h2>
-        <p>Hier einige meiner besten Arbeiten:</p>
-    </section>
-
-    <section id="kundenmeinungen" class="p-8 bg-white">
-        <h2 class="text-3xl font-bold mb-4">Kundenmeinungen</h2>
-        <p>🌟🌟🌟🌟🌟 "Fantastische Bilder!"</p>
-        <p>🌟🌟🌟🌟 "Sehr professionell!"</p>
-    </section>
-
-    <section id="video" class="p-8 bg-gray-50">
-        <h2 class="text-3xl font-bold mb-4">Drohnenvideo</h2>
-        <iframe class="w-full rounded shadow" height="400" src="https://www.youtube.com/embed/BVFSYvuD1Ls" allowfullscreen></iframe>
-    </section>
-
-    <section id="kontakt" class="p-8 bg-white">
-        <h2 class="text-3xl font-bold mb-4">Kontakt</h2>
-        <form class="flex flex-col space-y-4">
-            <input type="text" placeholder="Ihr Name" class="p-2 border rounded">
-            <input type="email" placeholder="Ihre E-Mail" class="p-2 border rounded">
-            <textarea placeholder="Ihre Nachricht" class="p-2 border rounded"></textarea>
-            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Absenden</button>
-        </form>
+    <section id="kontakt" class="p-8 bg-white text-center">
+        <h2 class="text-3xl font-bold">Kontakt</h2>
     </section>
 </body>
 </html>
+
