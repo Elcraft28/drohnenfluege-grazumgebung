@@ -6,7 +6,7 @@
     <title>Professionelle Drohnenflüge in Graz & Umgebung</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?drone,landscape');">
+<body class="bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?drone,mountains');">
     <header class="bg-black bg-opacity-60 text-white p-4 flex justify-between items-center">
         <h1 class="text-2xl font-bold"><a href="#startseite">Drohnenflüge Graz</a></h1>
         <nav>
@@ -31,6 +31,15 @@
         </video>
     </section>
 
+    <section id="ueber-mich" class="p-8 bg-white">
+        <h2 class="text-3xl font-bold mb-4 text-center">Über mich</h2>
+        <div class="grid grid-cols-3 gap-4 text-center">
+            <div class="bg-gray-100 p-4 rounded shadow">Schon in jungen Jahren faszinierte mich die Welt aus der Vogelperspektive. Mit meiner ersten Drohne begann ich, atemberaubende Landschaften und besondere Momente festzuhalten. Heute habe ich meine Fähigkeiten durch jahrelange Erfahrung perfektioniert und biete professionelle Drohnenaufnahmen für verschiedene Zwecke an.</div>
+            <div class="bg-gray-100 p-4 rounded shadow">Das Drohnenfliegen ist für mich nicht nur eine Leidenschaft, sondern ein ständiges Abenteuer. Jede Aufnahme ist einzigartig, und es gibt immer neue Perspektiven zu entdecken. Ob spektakuläre Naturaufnahmen oder technische Inspektionen – die Möglichkeiten sind grenzenlos, und ich liebe es, neue Herausforderungen anzunehmen.</div>
+            <div class="bg-gray-100 p-4 rounded shadow">Meine Ausrüstung besteht aus der hochmodernen DJI Mini 4 Pro, die für gestochen scharfe Luftaufnahmen sorgt, einer GoPro Hero 8 für dynamische Action-Shots und einer Insta 360 X3, mit der beeindruckende 360-Grad-Panoramen erstellt werden können. Damit bin ich für jede Situation bestens ausgerüstet.</div>
+        </div>
+    </section>
+
     <section id="projekte" class="p-8 bg-gray-50 text-center">
         <h2 class="text-3xl font-bold">Projekte</h2>
         <p>Ich durfte ein spannendes Projekt für Pölzl Feuerlöschtechnik umsetzen, bei dem ich hochauflösende Luftaufnahmen für Werbezwecke erstellt habe.</p>
@@ -49,7 +58,12 @@
 
     <section id="kontakt" class="p-8 bg-white text-center">
         <h2 class="text-3xl font-bold">Kontakt</h2>
+        <form class="flex flex-col space-y-4">
+            <input type="text" placeholder="Ihr Name" class="p-2 border rounded">
+            <input type="email" placeholder="Ihre E-Mail" class="p-2 border rounded">
+            <textarea placeholder="Ihre Nachricht" class="p-2 border rounded"></textarea>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Absenden</button>
+        </form>
     </section>
 </body>
 </html>
-
